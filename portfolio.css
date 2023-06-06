@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: url(background\ pic.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;  
+}
+.image {
+    width: 100px;
+    height: 110px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.nav-bar{
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    margin-top: -4px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3px;
+    transition: .4s ease;
+}
+
+ul li a:hover{
+    color: rgb(230, 104, 59);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 65px;
+    color: darkslategray;
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: darkslategray;
+}
+.info span{
+    color: rgb(230, 104, 59);
+}
+
+.info a{
+    text-decoration: none;
+    color: white;
+    background-color: darkslategray;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+.info a:hover{
+    background-color:rgb(230, 104, 59);
+    cursor: pointer;
+}
+
+.profile-pic{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.img{
+    position: absolute;
+    width: 300px;
+    border-radius: 145px;
+    left: 40%;
+    margin-bottom: 15px;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.img:hover{
+    left: 55%;
+}
